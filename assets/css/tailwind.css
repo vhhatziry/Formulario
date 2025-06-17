@@ -1,0 +1,8 @@
+/* 
+  Versión “wrapper” que importa Tailwind desde CDN.
+  Si prefieres compilar localmente, reemplaza esto por tus @tailwind directives
+  y corre `npx tailwindcss build` contra tu tailwind.config.js.
+*/
+
+@import url("https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css");
+    
