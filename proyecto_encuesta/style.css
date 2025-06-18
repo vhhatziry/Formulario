@@ -1,0 +1,114 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Formularios */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Para incluir padding y border en el width total */
+}
+
+input[type="submit"],
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para las preguntas de la encuesta */
+.pregunta {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
+
+.pregunta p {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.alternativas label {
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.alternativas input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Mensajes de error o éxito */
+.mensaje-error {
+    color: #D8000C;
+    background-color: #FFD2D2;
+    border: 1px solid #D8000C;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.mensaje-exito {
+    color: #270;
+    background-color: #DFF2BF;
+    border: 1px solid #4F8A10;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+/* Listados */
+ul.listado-respuestas {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.listado-respuestas li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+ul.listado-respuestas li:last-child {
+    border-bottom: none;
+}
